@@ -1,0 +1,22 @@
+@font-face {
+    font-family: PingFangSC;
+    src: url(font/PingFang-SC-Light.ttf);
+    font-weight: 300;
+  }
+
+  @font-face {
+    font-family: PingFangSC;
+    src: url(font/PingFang-SC-Medium.ttf);
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: PingFangSC;
+    src: url(font/PingFang-SC-Regular.ttf);
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: PingFangSC;
+    src: url(font/PingFang-SC-Semibold.ttf);
+    font-weight: 600;
+  }

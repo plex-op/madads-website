@@ -1,0 +1,249 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>madads.co</title>
+
+    <!--Bootstrap css-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!--Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!--external css-->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!--external js-->
+    <script src="script.js"></script>
+
+    <!--external font-->
+    <link rel="stylesheet" href="font.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
+</head>
+
+<body>
+    <div id="preloader"></div>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hidesidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                        viewBox="0 -960 960 960" width="24">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#Service-section">Services</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#contact-section">Contact Us</a></li>
+
+        </ul>
+        <ul>
+            <li><a><img src="img/LOGO INTRO.gif" class="logo"></a></li>
+            <!--<li><a href="#">LOGO</a></li>-->
+            <li><a href="#">Home</a></li>
+            <li><a href="#Service-section">Services</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#contact-section">Contact Us</a></li>
+            <li onclick=showsidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                        viewBox="0 -960 960 960" width="26">
+                        <path
+                            d="M400-240v-80h240v80H400Zm-158 0L15-467l57-57 170 170 366-366 57 57-423 423Zm318-160v-80h240v80H560Zm160-160v-80h240v80H720Z" />
+                    </svg></a></li>
+        </ul>
+    </nav>
+    <div>
+        <video src="img/bgintro.mp4" class="object-fit-cover" autoplay muted loop></video>
+    </div>
+    <!--<section id="#Service-section">-->
+    <h1 class="heading">Services</h1>
+    <div class="card-style">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <img src="img/smm.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="boy">Social Media Marketing</h5>
+                            <p class="card-text">Engage and connect with your audience on popular social media platforms
+                                through compelling content and targeted campaigns.
+                            </p>
+                            <!--<a href="#" class="btn btn-dark">Go somewhere</a>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <img src="img/cc.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="boy">Content Creation</h5>
+                            <p class="card-text">Tell your brand story and build credibility through high-quality,
+                                relevant content that resonates with your audience.</p>
+                            <!--<a href="#" class="btn btn-dark">Go somewhere</a>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <img src="img/web.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="boy">Web Development</h5>
+                            <p class="card-text">Create a user-friendly and visually appealing online presence that
+                                leaves a lasting impression.</p>
+                            <!--<a href="#" class="btn btn-dark">Go somewhere</a>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <img src="img/Email.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="boy">Email Marketing</h5>
+                            <p class="card-text">Build and nurture relationships with your audience through personalized
+                                and effective email campaigns.</p>
+                            <!--<a href="#" class="btn btn-dark">Go somewhere</a>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--</section>-->
+<!--<section id="#about-section">-->
+    <div class="responsive-container-block bigContainer">
+        <div class="responsive-container-block Container bottomContainer">
+            <div class="ultimateImg">
+                <img class="mainImg" src="img/abt.png">
+                <div class="purpleBox">
+                    <p class="purpleText">
+                        MadAds is an exceptional digital marketing company, delivering innovative strategies and
+                        impactful results.
+                    </p>
+                   <!--<img class="stars" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/mp5.svg">-->
+                </div>
+            </div>
+            <div class="allText bottomText">
+                <p class="text-blk headingText">
+                    About US
+                </p>
+                <p class="text-blk subHeadingText">
+                    Welcome to MAD ADS, where innovation meets digital excellence!
+                </p>
+                <p class="text-blk description">
+                    We are a young, dynamic, and results-driven digital marketing company, committed to transforming
+                    your online presence and propelling your business to new heights.
+                    At Mad Ads, we understand that the digital landscape is constantly evolving. That's why we pride
+                    ourselves on staying ahead of the curve, leveraging the latest technologies, and employing
+                    cutting-edge strategies to ensure your brand stands out in the crowded digital space.
+                </p>
+
+            </div>
+        </div>
+    </div>
+<!--</section>-->
+<!--<section id="contact-section">-->
+    <h1 class="heading">Contact US</h1>
+    <div class="form-container">
+        <form class="form">
+            <div class="form-group">
+                <label for="email">Phone NO</label>
+                <input required="" name="number" id="no" type="number">
+                <label for="email">Email</label>
+                <input required="" name="email" id="email" type="text">
+            </div>
+            <div class="form-group">
+                <label for="textarea">How Can We Help You?</label>
+                <textarea required="" cols="50" rows="10" id="textarea" name="textarea">          </textarea>
+            </div>
+            <button type="submit" class="form-submit-btn">Submit</button>
+        </form>
+    </div>
+    <div class="contact-img">
+        <img src="img/ccu.png" alt="img" width="90%">
+    </div>
+<!--</section>-->
+    <!-- <div class="custom-shape-divider-bottom-1706450496">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>-->
+   
+    <section>
+        <footer class="footer-distributed">
+
+            <div class="footer-left">
+
+                <img src="img/logo.png" alt="logo" style="width: 100px; margin-right: 10px;" />
+
+                <p class="footer-links">
+                    <a href="#" class="link-1">Home</a>
+
+                    <a href="#">Services</a>
+
+                    <a href="#">About</a>
+
+                    <a href="#">Contact</a>
+
+                    <a href="Teams&condition.html">Teams & Conditions</a>
+
+
+                </p>
+
+                <p class="footer-company-name">MAD ADS © 2023</p>
+            </div>
+
+            <div class="footer-center">
+
+                <div>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <p><span>#347 , Old GST Road , East Tambaram</span> Chennai , India - 600059</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone" style="font-size:24px"></i>
+                    <p>+91 93616 24563</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:madadsindia@gmail.com">madadsindia@gmail.com</a></p>
+                </div>
+
+            </div>
+
+            <div class="footer-right">
+
+                <p class="footer-company-about">
+                    <span>About the company</span>
+                    Mad Ads is a dynamic digital marketing company known for its innovative strategies and creative
+                    campaigns, helping businesses thrive in the online landscape through targeted advertising and
+                    effective brand promotion.
+                </p>
+
+                <div class="footer-icons">
+
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+
+                </div>
+
+            </div>
+
+        </footer>
+    </section>
+    <script>
+
+    </script>
+
+</body>
+
+</html>
